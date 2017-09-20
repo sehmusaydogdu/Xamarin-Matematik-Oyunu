@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematikOyun.Views.ListPage"
+             Style="{StaticResource ContentStyle}">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" >
+            <StackLayout Padding="10,20,10,0">
+                <Label x:Name="lblBilgi" Text="Oyun Skor Bilgileri" Margin="0,10,0,10" 
+                       FontSize="24" HorizontalOptions="Center"></Label>
+                <ScrollView>
+                    <ListView x:Name="lstOyunDetay" ItemsSource="{Binding .}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell DetailColor="DarkBlue" Text="{Binding Skor}" 
+                                          Detail="{Binding timeStart}" TextColor="Red" ></TextCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+            <StackLayout Padding="15,20,15,30">
+                <Button  Style="{StaticResource BtnStyle}" x:Name="btnOyunaDon" 
+                         Clicked="onOyunaDon" Text="OYUNU YENİDEN BAŞLAT"></Button>
+                <Button  Style="{StaticResource BtnStyle}" x:Name="btnAnasayfa" 
+                         Clicked="onOyunAnasayfa" Text="ANA MENÜYE GERİ DÖN"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

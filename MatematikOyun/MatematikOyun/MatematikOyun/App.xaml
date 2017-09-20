@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematikOyun.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ContentStyle" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="Lavender"></Setter>
+                <Setter Property="Opacity"         Value=".8"></Setter>
+            </Style>
+
+            <Style x:Key="BtnStyle" TargetType="Button">  
+                <Setter Property="Opacity"        Value=".7"></Setter>
+                <Setter Property="TextColor"      Value="Indigo"></Setter>
+                <Setter Property="FontSize"       Value="18"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="HeightRequest" Value="60"></Setter>
+                <Setter Property="WidthRequest"  Value="40"></Setter>
+                <Setter Property="Margin"        Value="0,5,0,0"></Setter>
+            </Style>
+
+            <Style x:Key="BtnSecenek" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="LightSteelBlue"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="FontSize" Value="18"></Setter>
+            </Style>
+            
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

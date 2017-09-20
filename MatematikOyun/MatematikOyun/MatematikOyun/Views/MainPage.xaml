@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematikOyun.Views.MainPage"
+             Style="{StaticResource ContentStyle}">
+    <ContentPage.Content>
+        <StackLayout Padding="10,10,10,10" Orientation="Vertical">
+            <StackLayout Padding="10,20,10,0">
+                <Label x:Name="lblTitle" FontSize="30" FontFamily="Calibri"
+                       TextColor="Red" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout Padding="10,30,10,10">
+                <Image Source="iconn.jpg" WidthRequest="200"  HeightRequest="200"></Image>
+            </StackLayout>
+            <StackLayout Padding="15,20,15,30">
+                <Button Style="{StaticResource BtnStyle}" x:Name="btnBasla" 
+                        Clicked="onOyunaBasla" Text="OYUNA BAŞLA"></Button>
+                <Button Style="{StaticResource BtnStyle}" x:Name="btnAyrinti" 
+                        Clicked="onOyunKullanimBilgileri" Text="OYUN SKOR BİLGİLERİ"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

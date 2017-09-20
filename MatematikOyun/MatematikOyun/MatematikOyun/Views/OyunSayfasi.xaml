@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatematikOyun.Views.OyunSayfasi"
+             Style="{StaticResource ContentStyle}">
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="10,5,10,10">
+
+            <StackLayout Padding="15,20,15,10">
+
+                <Label Margin="10,0,10,0"
+                       x:Name="lblSkor"
+                       Text="0"
+                       FontSize="18"></Label>
+
+                <Slider x:Name="slider"
+                        Maximum="60" 
+                        Minimum="0"></Slider>
+
+                <Label x:Name="lblSure"
+                       HorizontalOptions="Center"
+                       FontSize="Large"/>
+            </StackLayout>
+
+            <StackLayout Padding="15,15,15,15">
+                <Label x:Name="lblPuan" 
+                       Text="0"
+                       TextColor="Blue"
+                       HorizontalOptions="Center" 
+                       FontSize="Large" />
+            </StackLayout>
+
+            <StackLayout Padding="15,15,15,5">
+                <Label x:Name="lblText" 
+                       Text="0"
+                       TextColor="Red"
+                       FontSize="35"
+                       HorizontalTextAlignment="Center"
+                       Margin="5"/>
+            </StackLayout>
+
+            <StackLayout Padding="15,20,15,15">
+
+                <Button x:Name="btn1" Clicked="btn1_Clicked" Style="{StaticResource BtnSecenek}"></Button>
+                <Button x:Name="btn2" Clicked="btn2_Clicked" Style="{StaticResource BtnSecenek}"></Button>
+                <Button x:Name="btn3" Clicked="btn3_Clicked" Style="{StaticResource BtnSecenek}"></Button>
+                <Button x:Name="btn4" Clicked="btn4_Clicked" Style="{StaticResource BtnSecenek}"></Button>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
