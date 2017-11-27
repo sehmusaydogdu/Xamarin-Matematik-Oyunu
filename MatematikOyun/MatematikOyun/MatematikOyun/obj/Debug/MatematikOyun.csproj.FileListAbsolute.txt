@@ -16,3 +16,38 @@ C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun\obj\Debug\Matema
 C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.MainPage.xaml.g.cs
 C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.dll
 C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\MatematikOyun.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\MatematikOyun.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\SQLite.Net.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.App.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.ListPage.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.OyunSayfasi.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.MainPage.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\MatematikOyun.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\MatematikOyun.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\SQLite.Net.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.App.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.ListPage.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.OyunSayfasi.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.Views.MainPage.xaml.g.cs
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.dll
+C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun\obj\Debug\MatematikOyun.pdb

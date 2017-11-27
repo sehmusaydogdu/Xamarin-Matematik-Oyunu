@@ -11,8 +11,8 @@
 namespace MatematikOyun.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Acer\\Desktop\\MatematikOyun\\MatematikOyun\\MatematikOyun\\Views\\OyunSayfasi" +
-        ".xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\acer\\Desktop\\Apk-Xamarin\\Matematik Oyunu\\MatematikOyun\\MatematikOyun\\Vie" +
+        "ws\\OyunSayfasi.xaml")]
     public partial class OyunSayfasi : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

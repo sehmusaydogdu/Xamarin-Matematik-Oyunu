@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="MatematikOyun.Android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.matematikoyunu" android:versionCode="1" android:versionName="1.0">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="MatematikOyun.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/iconn" android:debuggable="true">
+  <application android:label="MatematikOyun.Android" android:icon="@drawable/iconn" android:debuggable="false" android:name="android.app.Application" android:allowBackup="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/iconn" android:label="MatematikOyun" android:theme="@style/MainTheme" android:name="md52458dcf10ad2c837a759bb0b31af3d27.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="MatematikOyun.Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.matematikoyunu.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.MatematikOyun.Android" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.matematikoyunu" />
       </intent-filter>
     </receiver>
   </application>

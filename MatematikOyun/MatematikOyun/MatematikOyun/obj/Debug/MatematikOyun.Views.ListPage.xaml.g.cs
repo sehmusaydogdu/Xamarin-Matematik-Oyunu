@@ -11,8 +11,8 @@
 namespace MatematikOyun.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Acer\\Desktop\\MatBitti\\MatematikOyun\\MatematikOyun\\MatematikOyun\\Views\\Li" +
-        "stPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\acer\\Desktop\\Apk-Xamarin\\Matematik Oyunu\\MatematikOyun\\MatematikOyun\\Vie" +
+        "ws\\ListPage.xaml")]
     public partial class ListPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

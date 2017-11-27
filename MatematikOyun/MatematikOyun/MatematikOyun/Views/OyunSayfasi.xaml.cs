@@ -28,7 +28,7 @@ namespace MatematikOyun.Views
             o.Skor = sayi.ToplamPuan;
             var lis = manager.GetAll().ToList().Count;
 
-            if (lis <= 10)
+            if (lis <= 20)
             {
                 manager = new SQLiteManager();
                 int isDurum = manager.Insert(o);
@@ -57,7 +57,7 @@ namespace MatematikOyun.Views
                 lblSure.Text = "Kalan Süre   :  " + t.ToString();
                 slider.Value = t;
                 t--;
-                await Task.Delay(850);
+                await Task.Delay(800);
             }
             onInsert();
             if (sayi.ToplamPuan > Sayilar.OyunSkor)
@@ -118,23 +118,23 @@ namespace MatematikOyun.Views
             double gecici = sayi.Sonuc;
             switch (sayi.Yeri)
             {
-                case 1: btn1.Text = sayi.Sonuc.ToString(); break;
-                case 2: btn2.Text = sayi.Sonuc.ToString(); break;
-                case 3: btn3.Text = sayi.Sonuc.ToString(); break;
-                case 4: btn4.Text = sayi.Sonuc.ToString(); break;
+                case 1: btn1.Text = string.Format("{0:0.##}", sayi.Sonuc); break;
+                case 2: btn2.Text = string.Format("{0:0.##}", sayi.Sonuc); break;
+                case 3: btn3.Text = string.Format("{0:0.##}", sayi.Sonuc); break;
+                case 4: btn4.Text = string.Format("{0:0.##}", sayi.Sonuc); break;
             }
 
             for (int i = 1; i < 5; i++)
             {
-                gecici++;
+                gecici+=5;
                 if (i != sayi.Yeri)
                 {
                     switch (i)
                     {
-                        case 1: btn1.Text = gecici.ToString(); break;
-                        case 2: btn2.Text = gecici.ToString(); break;
-                        case 3: btn3.Text = gecici.ToString(); break;
-                        case 4: btn4.Text = gecici.ToString(); break;
+                        case 1: btn1.Text = string.Format("{0:0.##}", gecici); break;
+                        case 2: btn2.Text = string.Format("{0:0.##}", gecici); break;
+                        case 3: btn3.Text = string.Format("{0:0.##}", gecici); break;
+                        case 4: btn4.Text = string.Format("{0:0.##}",gecici); break;
                     }
                 }
             }
@@ -143,7 +143,7 @@ namespace MatematikOyun.Views
 
         private async void btn1_Clicked(object sender, EventArgs e)
         {
-            if (btn1.Text == sayi.Sonuc.ToString())
+            if (btn1.Text == string.Format("{0:0.##}", sayi.Sonuc))
             {
                 if (sayi.Sayac == 0)
                     sayi.ToplamPuan += 10;
@@ -165,7 +165,7 @@ namespace MatematikOyun.Views
 
         private async void btn2_Clicked(object sender, EventArgs e)
         {
-            if (btn2.Text == sayi.Sonuc.ToString())
+            if (btn2.Text == string.Format("{0:0.##}", sayi.Sonuc))
             {
                 if (sayi.Sayac == 0)
                     sayi.ToplamPuan += 10;
@@ -186,7 +186,7 @@ namespace MatematikOyun.Views
 
         private async void btn3_Clicked(object sender, EventArgs e)
         {
-            if (btn3.Text == sayi.Sonuc.ToString())
+            if (btn3.Text == string.Format("{0:0.##}", sayi.Sonuc))
             {
                 if (sayi.Sayac == 0)
                     sayi.ToplamPuan += 10;
@@ -208,7 +208,7 @@ namespace MatematikOyun.Views
 
         private async void btn4_Clicked(object sender, EventArgs e)
         {
-            if (btn4.Text == sayi.Sonuc.ToString())
+            if (btn4.Text == string.Format("{0:0.##}", sayi.Sonuc))
             {
                 if (sayi.Sayac == 0)
                     sayi.ToplamPuan += 10;
@@ -227,7 +227,7 @@ namespace MatematikOyun.Views
             }
         }
 
-        private /*async*/ void btnDeafult() // Butonun Arka Plan Rengini Eski Haline Döndürüyorum
+        private void btnDeafult() // Butonun Arka Plan Rengini Eski Haline Döndürüyorum
         {
             manager = new SQLiteManager();
             if (manager.GetAll().ToList().OrderByDescending(x => x.Skor).FirstOrDefault()==null)
@@ -238,8 +238,7 @@ namespace MatematikOyun.Views
                 manager = new SQLiteManager();
                 Sayilar.OyunSkor = manager.GetAll().ToList().OrderByDescending(x => x.Skor).FirstOrDefault().Skor;
             }
-            
-            ///await Task.Delay(100);
+
             lblSkor.Text = "En Yüksek Skor  : " + Sayilar.OyunSkor;
             lblPuan.Text = "Toplam Puan : " + sayi.ToplamPuan;
             btn1.BackgroundColor = Color.LightSteelBlue;

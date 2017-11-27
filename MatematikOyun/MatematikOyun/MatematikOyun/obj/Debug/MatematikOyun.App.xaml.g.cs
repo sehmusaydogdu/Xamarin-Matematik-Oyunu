@@ -11,7 +11,8 @@
 namespace MatematikOyun {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Acer\\Desktop\\MatematikOyun\\MatematikOyun\\MatematikOyun\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\acer\\Desktop\\Apk-Xamarin\\Matematik Oyunu\\MatematikOyun\\MatematikOyun\\App" +
+        ".xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -2544,7 +2544,7 @@ containing a value of this type.
         public static int ic_tv_dark=0x7f02008f;
         public static int ic_tv_light=0x7f020090;
         public static int icon=0x7f020091;
-        public static int math=0x7f020092;
+        public static int iconn=0x7f020092;
         public static int mr_dialog_material_background_dark=0x7f020093;
         public static int mr_dialog_material_background_light=0x7f020094;
         public static int mr_ic_audiotrack_light=0x7f020095;

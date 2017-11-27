@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <Jars></Jars>
+  <Jars>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
@@ -13,8 +13,8 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Acer\Desktop\MatematikOyun\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\acer\Desktop\Apk-Xamarin\Matematik Oyunu\Xamarin-Matematik Oyunu\MatematikOyun\MatematikOyun.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
